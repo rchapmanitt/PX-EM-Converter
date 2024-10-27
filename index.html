@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>PX & EM Converter</title>
+</head>
+<body>
+<hr style="width: 100%; background-color: #808080">
+<h2>Pixel & Em Converter</h2>
+<hr style="width: 100%; background-color: #808080">
+<div>
+    <p>Set base pixel size:<br>
+        <input type="text" id="pix1" size="8" value="16"> px
+    </p>
+    <br>
+    <p>Convert PX to EM:<br>
+        <input onfocus="wrong()" onblur="works()" type="text" size="8" id="myInput" value=""> px
+    </p>
+    <br>
+    <p>Convert EM to PX:<br>
+        <input onfocus="wrong2()" onblur="works2()" type="text" size="8" id="myInput2" value=""> em
+    </p>
+    <br>
+    <button onclick="myFunction()">Convert</button>
+    <br><br>
+    <p>Result: <span id="result1"></span></p>
+</div>
+<hr style="width: 100%; background-color: #A9A9A9">
+<script src="convert.js"></script>
+</body>
+</html>
